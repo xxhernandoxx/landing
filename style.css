@@ -246,6 +246,7 @@ footer .container ul li {
 
     .hero img {
         margin: auto;
+        padding: 10px;
     }
 
     .flies .container {
@@ -277,13 +278,18 @@ footer .container ul li {
         flex-wrap: wrap;
     }
 
-    .navbar .logo {
-        font-size: 18px;
+    .navbar .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .navbar ul li {
-        font-size: 14px;
-        margin-left: 24px;
+    .navbar .logo {
+        margin-bottom: 12px;
+    }
+
+    .navbar ul {
+        padding-right: 36px;
     }
 
     .guide {
