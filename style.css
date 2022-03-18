@@ -276,4 +276,16 @@ footer .container ul li {
     footer .container {
         flex-wrap: wrap;
     }
+
+    .nav h1 {
+        font-size: 36px;
+    }
+
+    .navbar ul li {
+        margin-left: 24px;
+    }
+
+    .guide {
+        font-size: 24px;
+    }
 }
